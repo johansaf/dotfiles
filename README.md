@@ -30,3 +30,6 @@ brew bundle dump
 
 ## ssh
 Keys go in the `keys/` directory, and the things we connect to go into the `private` and `work` files
+
+## sudo
+Nothing special to be done

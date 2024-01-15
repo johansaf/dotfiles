@@ -1,0 +1,1 @@
+johan           ALL = (root) NOPASSWD: /opt/homebrew/sbin/mtr
