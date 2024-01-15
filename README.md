@@ -32,7 +32,8 @@ brew bundle dump
 Might be a bit finicky to get going, uses [lazy.nvim](https://github.com/folke/lazy.nvim) as the package manager.
 
 ## ssh
-Keys go in the `keys/` directory, and the things we connect to go into the `private` and `work` files
+- Keys go in the `keys/` directory, and the things we connect to go into the `private` and `work` files
+- Create a symlink from `~/.ssh` to `~/.config/ssh`
 
 ## sudo
 Nothing special to be done
