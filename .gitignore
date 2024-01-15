@@ -2,6 +2,7 @@ Brewfile.lock.json
 karabiner/
 wireshark/
 tmux/plugins/*
+nvim/lazy-lock.json
 
 # Ignore everything except the actual config file
 ssh/*

@@ -28,6 +28,9 @@ brew bundle dump
 - Start the application and rename the default profile to just `Default`
 - Run `goku` to regenerate the Karabiner-Elements config
 
+## neovim
+Might be a bit finicky to get going, uses [lazy.nvim](https://github.com/folke/lazy.nvim) as the package manager.
+
 ## ssh
 Keys go in the `keys/` directory, and the things we connect to go into the `private` and `work` files
 
