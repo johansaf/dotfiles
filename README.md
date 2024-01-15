@@ -2,6 +2,9 @@
 
 Everything is based on being in `.config`, trying to follow the [XDG base directory spec](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
+## [Atuin](https://atuin.sh/)
+Also needs `zsh` configuration
+
 ## git
 Nothing special to be done
 
