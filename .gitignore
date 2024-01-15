@@ -4,6 +4,11 @@ wireshark/
 tmux/plugins/*
 nvim/lazy-lock.json
 
+*zcompdump*
+.zsh_history
+.zsh_sessions/
+zsh/plugins/*
+
 # Ignore everything except the actual config file
 ssh/*
 !ssh/config

@@ -41,3 +41,6 @@ Nothing special to be done
 ## tmux
 - Install the [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 - Install any plugins used, by doing `prefix+I`
+
+## zsh
+Should be too much trouble to get going, remember to create a symlink from `~/.zshenv` to `~/.config/zsh/.zshenv`
