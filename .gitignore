@@ -1,6 +1,7 @@
 Brewfile.lock.json
 karabiner/
 wireshark/
+tmux/plugins/*
 
 # Ignore everything except the actual config file
 ssh/*

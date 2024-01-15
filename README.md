@@ -33,3 +33,7 @@ Keys go in the `keys/` directory, and the things we connect to go into the `priv
 
 ## sudo
 Nothing special to be done
+
+## tmux
+- Install the [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+- Install any plugins used, by doing `prefix+I`
