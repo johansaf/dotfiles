@@ -1,0 +1,21 @@
+[init]
+  defaultBranch = main
+
+[core]
+  pager = delta
+	editor = nvim
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+  side-by-side = true
+  line-numbers-left-format = ""
+  line-numbers-right-format = "│ "
+
+[merge]
+  conflictStyle = diff3
+
+[diff]
+  colorMoved = default
