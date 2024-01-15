@@ -1,2 +1,6 @@
 Brewfile.lock.json
 karabiner/
+
+# Ignore everything except the actual config file
+ssh/*
+!ssh/config

@@ -1,0 +1,10 @@
+# vim: set filetype=sshconfig :
+
+ObscureKeystrokeTiming yes
+HashKnownHosts yes
+
+Include work
+Include private
+
+Host *
+  IdentitiesOnly yes

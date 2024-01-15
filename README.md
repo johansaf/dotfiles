@@ -26,4 +26,7 @@ brew bundle dump
 - Create `.config/karabiner`
 - Touch `.config/karabiner/karabiner.json`
 - Start the application and rename the default profile to just `Default`
- - Run `goku` to regenerate the Karabiner-Elements config
+- Run `goku` to regenerate the Karabiner-Elements config
+
+## ssh
+Keys go in the `keys/` directory, and the things we connect to go into the `private` and `work` files
