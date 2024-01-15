@@ -21,3 +21,9 @@ Dump a new Brewfile:
 rm Brewfile
 brew bundle dump
 ```
+
+## [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)
+- Create `.config/karabiner`
+- Touch `.config/karabiner/karabiner.json`
+- Start the application and rename the default profile to just `Default`
+ - Run `goku` to regenerate the Karabiner-Elements config
