@@ -1,5 +1,6 @@
 Brewfile.lock.json
 karabiner/
+wireshark/
 
 # Ignore everything except the actual config file
 ssh/*
