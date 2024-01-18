@@ -91,3 +91,13 @@ lsp.lua_ls.setup({
     },
   },
 })
+
+lsp.gopls.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  settings = {
+    gopls = {
+      gofumpt = true
+    },
+  },
+})
