@@ -17,6 +17,7 @@ export VISUAL="vim"
 export GOPATH="$HOME"/go
 export GOBIN="$HOME"/go/bin
 export GOCACHE="$XDG_CACHE_HOME"/go-build
+export PATH=$PATH:$GOBIN
 
 # misc
 export MANPAGER="zsh -c 'sed -e s/.\\\\x08//g | bat -l man -p'"
