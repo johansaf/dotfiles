@@ -29,6 +29,7 @@ alias ls="eza --color auto --classify"
 alias nosleep="caffeinate -d"
 alias traceroute="traceroute -A riswhois.ripe.net"
 alias vim="nvim"
+alias gr="go run ."
 
 ## Keys
 bindkey -v      # vi mode
