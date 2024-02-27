@@ -6,5 +6,5 @@ else
 	eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
 eval "$(atuin init zsh --disable-up-arrow)"
