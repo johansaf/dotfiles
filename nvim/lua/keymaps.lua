@@ -51,9 +51,6 @@ vim.keymap.set("n", "å", "[s", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>tl", ":Telescope telescope-tabs list_tabs<enter>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>tt", ":tabnew<enter>", { noremap = true, silent = true })
 
--- neo-tree
-vim.keymap.set("n", "§", ":Neotree toggle<cr>", { noremap = true, silent = true })
-
 -- Jump to last position of the cursor, remap to jump to the position in the line
 vim.keymap.set("n", "''", "``", { noremap = true, silent = true })
 
