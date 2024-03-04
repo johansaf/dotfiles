@@ -26,6 +26,8 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export DELTA_FEATURES=+side-by-side
 export NODE_OPTIONS="--no-deprecation"   # https://github.com/bitwarden/clients/issues/6689
 export PATH=~/bin:$PATH
+export TERMINFO="$XDG_DATA_HOME"/terminfo
+export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 
 # rust
 if [[ -f "$HOME"/.cargo/env ]]; then

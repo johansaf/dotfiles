@@ -30,6 +30,7 @@ alias nosleep="caffeinate -d"
 alias traceroute="traceroute -A riswhois.ripe.net"
 alias vim="nvim"
 alias gr="go run ."
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
 ## Keys
 bindkey -v      # vi mode
