@@ -50,6 +50,9 @@ vim.keymap.set("n", "å", "[s", { noremap = true, silent = true })
 -- Jump to last position of the cursor, remap to jump to the position in the line
 vim.keymap.set("n", "''", "``", { noremap = true, silent = true })
 
+-- LazyGit
+vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>", { noremap = true, silent = true })
+
 -- I tend to mistype these
 vim.cmd([[
   cabbr W w
