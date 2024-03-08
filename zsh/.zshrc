@@ -90,8 +90,6 @@ else
   export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 fi
 
-eval "$(zoxide init --cmd cd zsh)"
-
 # Create a directory and change into it
 x () {
   mkdir -p "$1" && cd "$1"
