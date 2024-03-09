@@ -9,6 +9,8 @@ nvim/lazy-lock.json
 .zsh_sessions/
 zsh/plugins/*
 
+lazygit/state.yml
+
 # Ignore everything except the actual config file
 ssh/*
 !ssh/config
