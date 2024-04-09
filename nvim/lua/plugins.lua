@@ -53,21 +53,6 @@ require("lazy").setup({
     "L3MON4D3/LuaSnip",
   },
   {
-    "smoka7/hop.nvim",
-    version = "*",
-    opts = {},
-  },
-  {
-    "folke/which-key.nvim",
-    event = "VeryLazy",
-    init = function()
-      vim.o.timeout = true
-      vim.o.timeoutlen = 300
-    end,
-    opts = {
-    }
-  },
-  {
     "kdheepak/lazygit.nvim",
     cmd = {
       "LazyGit",
@@ -80,4 +65,5 @@ require("lazy").setup({
       "nvim-lua/plenary.nvim",
     },
   },
+  "numToStr/FTerm.nvim",
 })
