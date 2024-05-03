@@ -8,3 +8,4 @@ Include private
 
 Host *
   IdentitiesOnly yes
+  ForwardAgent no
